@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/LoginBase">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="wrap_content">
+
+		<LinearLayout android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_width="match_parent">
+			<TextView android:layout_height="wrap_content"
+				android:text="@string/LOGIN_Registration_Info_Label" android:id="@+id/textView1"
+				android:layout_width="match_parent" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_width="match_parent">
+
+			<EditText android:id="@+id/UserId" android:layout_height="wrap_content"
+				android:hint="@string/LOGIN_UserId_Hint" android:layout_width="match_parent"
+				android:singleLine="true" ><requestFocus/></EditText>
+		</LinearLayout>
+
+		<LinearLayout android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_width="match_parent">
+
+			<EditText
+			    android:id="@+id/PassWord"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:hint="@string/LOGIN_PassWord_Hint"
+			    android:inputType="textPassword"
+			    android:singleLine="true" />
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" />
+
+		<Switch
+		    android:id="@+id/RegUserSwitch"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:checked="true"
+		    android:text="@string/LOGIN_RegUserID" />
+
+		<Switch
+		    android:id="@+id/RegPasswordSwitch"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:checked="true"
+		    android:text="@string/LOGIN_RegPasswd" />
+
+		<Switch
+		    android:id="@+id/RegAutologinSwitch"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/LOGIN_RegAutologin" />
+
+	</LinearLayout>
+	<Button android:layout_width="fill_parent" android:id="@+id/Login_button"
+		android:layout_height="wrap_content"
+		android:text="@string/LOGIN_Registration_Btn_Label" android:onClick="Login_buttonOnClick"></Button>
+
+</LinearLayout>

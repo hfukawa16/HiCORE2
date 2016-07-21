@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<TextView style="@style/THQ110_detail_data_cell_Sty" android:id="@+id/THQ110_row01_01"
+		android:text="@string/THQ110_RowLable01" android:background="@drawable/cal_ca3"></TextView>
+	<TextView style="@style/THQ110_detail_data_cell_Sty"
+		android:text="00.0" android:background="@drawable/cal_ca0" android:id="@+id/THQ110_row01_02"></TextView>
+	<TextView style="@style/THQ110_detail_data_cell_Sty"
+		android:text="00.0" android:background="@drawable/cal_ca0" android:id="@+id/THQ110_row01_03"></TextView>
+	<TextView style="@style/THQ110_detail_data_cell_Sty"
+		android:text="00.0" android:background="@drawable/cal_ca0" android:id="@+id/THQ110_row01_04"></TextView>
+	<TextView style="@style/THQ110_detail_data_cell_Sty"
+		android:text="00.0" android:background="@drawable/cal_ca0" android:id="@+id/THQ110_row01_05"></TextView>
+</TableRow>
+
+

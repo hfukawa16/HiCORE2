@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Msg_LoginErrTitle">ログインエラー</string>
+	<string name="Msg_LoginErrMsg">サーバにログインできませんでした。</string>
+	<string name="Msg_HostErrTitle">サーバ接続エラー</string>
+	<string name="Msg_HostErrMsg">サーバに接続できませんでした。host名が正しく設定されているか確認してください</string>
+	<string name="Msg_ConnectErrTitle">通信エラー</string>
+	<string name="Msg_ConnectErrMsg">サーバとの通信処理にてエラーが発生しました。サーバメンテナンス中または、通信状態の問題と思われます\n
+	時間を空けて再度実施してください。</string>
+	<string name="Msg_WaringTitle">Ｗａｒｎｉｎｇ</string>
+	<string name="Msg_UpdateOkTitle">更新完了</string>
+	<string name="Msg_UpdatePasswordMsg">パスワードを更新しました。</string>
+	<string name="Msg_cal_status_ca3">承認待ちステータスの為、参照のみとなります。</string>
+	<string name="Msg_cal_status_ca4">総務確定ステータスの為、参照のみとなります。</string>
+	<string name="Msg_cal_status_ca6">総承認待ステータスの為、参照のみとなります。</string>
+</resources>

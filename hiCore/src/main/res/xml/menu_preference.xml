@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference 
+	    android:key="RegAutologinSwitch"
+		android:singleLine="true" 
+		android:title="自動ログイン" 
+		android:summary="自動ログインの可否を設定してください。"
+		>
+	    
+	</CheckBoxPreference>
+
+		<PreferenceScreen 
+		    android:title="出勤・退勤設定"
+			android:summary="デフォルト登録値の設定">
+
+		    <EditTextPreference 
+		        android:key="default_shukinHH"
+				android:singleLine="true" 
+				android:defaultValue="09:00"
+				android:inputType="time"   
+				android:title="出勤時刻"
+				android:summary="出勤時刻のデフォルト値を登録してください。" />
+		
+		    <EditTextPreference 
+		        android:key="default_taikinHH"
+				android:singleLine="true" 
+				android:defaultValue="17:45"
+				android:inputType="time"   
+				android:title="退勤時刻"
+				android:summary="退勤時刻のデフォルト値を登録してください。" />
+		
+		
+		    <EditTextPreference 
+		        android:key="default_hoseiHH"
+				android:singleLine="true" 
+				android:defaultValue="00:00"
+				android:inputType="time"   
+				android:title="補正時間"
+				android:summary="補正時間のデフォルト値を登録してください。" />
+		
+		</PreferenceScreen>
+</PreferenceScreen>

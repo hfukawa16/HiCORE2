@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/calendar_frame" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout android:id="@+id/calendar_hader_table"
+		android:layout_weight="6" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TableRow android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="2">
+			<TextView android:id="@+id/calendar_date" android:text="@string/cal_title_YYYYMM"
+				android:layout_weight="3"
+				android:background="@drawable/cal_title_cell" style="@style/cal_title_cell_Sty" />
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1">
+			<TextView android:text="@string/cal_header_sun"
+				android:background="@drawable/cal_header_cell" style="@style/cal_header_cell_HolidaySty" />
+			<TextView android:text="@string/cal_header_mon"
+				android:background="@drawable/cal_header_cell" style="@style/cal_header_cell_WeekdaySty" />
+			<TextView android:text="@string/cal_header_tue"
+				android:background="@drawable/cal_header_cell" style="@style/cal_header_cell_WeekdaySty" />
+			<TextView android:text="@string/cal_header_wed"
+				android:background="@drawable/cal_header_cell" style="@style/cal_header_cell_WeekdaySty" />
+			<TextView android:text="@string/cal_header_thu"
+				android:background="@drawable/cal_header_cell" style="@style/cal_header_cell_WeekdaySty" />
+			<TextView android:text="@string/cal_header_fri"
+				android:background="@drawable/cal_header_cell" style="@style/cal_header_cell_WeekdaySty" />
+			<TextView android:text="@string/cal_header_sat"
+				android:background="@drawable/cal_header_cell" style="@style/cal_header_cell_SaturdaySty" />
+		</TableRow>
+	</TableLayout>
+	<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/flipper" android:layout_weight="2"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TableLayout android:id="@+id/calendar_day_table_1"
+			android:layout_weight="2" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca0" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca2" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca3" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca4" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca5" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca6" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+		</TableLayout>
+		<TableLayout android:id="@+id/calendar_day_table_2"
+			android:layout_weight="2" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca0" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca2" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca3" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca4" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca5" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca6" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="2">
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+				<Button android:background="@drawable/cal_ca1" style="@style/cal_detail_cell_Sty"
+					android:onClick="cal_DayOnClick" />
+			</TableRow>
+		</TableLayout>
+	</ViewFlipper>
+	<include android:layout_alignParentBottom="true"
+		layout="@layout/calendar_info" />
+</TableLayout>

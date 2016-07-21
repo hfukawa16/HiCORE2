@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tableLayout1" android:gravity="center"
+	android:layout_height="match_parent" android:layout_width="match_parent">
+	<HorizontalScrollView
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:orientation="vertical">
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="申請日"></TextView>
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="承認状況"></TextView>
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="事前"></TextView>
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="申請内容"></TextView>
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="申請期間"></TextView>
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="申請時刻"></TextView>
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="理　由"></TextView>
+				<TextView style="@style/TAE120_detail_data_cell_Sty"
+					android:background="@drawable/cal_ca2" android:text="プロジェクト"></TextView>
+			</TableRow>
+			<ScrollView
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<LinearLayout android:layout_width="match_parent"
+					android:id="@+id/scrollLinearLayout" android:layout_height="match_parent"
+					android:orientation="vertical">
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+	</HorizontalScrollView>
+</TableLayout>

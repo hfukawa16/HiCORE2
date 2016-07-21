@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="wrap_content">
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_01"
+		android:background="@drawable/cal_ca0" android:text="2011/06/02"></TextView>
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_02"
+		android:background="@drawable/cal_ca0" android:text="承認済み"></TextView>
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_03"
+		android:background="@drawable/cal_ca0" android:text="事後申請"></TextView>
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_04"
+		android:background="@drawable/cal_ca0" android:text="午前半休"></TextView>
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_05"
+		android:background="@drawable/cal_ca0" android:text="2011/05/20"></TextView>
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_06"
+		android:background="@drawable/cal_ca0" android:text=""></TextView>
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_07"
+		android:background="@drawable/cal_ca0" android:text="私用"></TextView>
+	<TextView style="@style/TAE120_detail_data_cell_Sty" android:id="@+id/THQ110_row01_08"
+		android:background="@drawable/cal_ca0" android:text="TNES　F支援(2MC)-設計③"></TextView>
+</TableRow>

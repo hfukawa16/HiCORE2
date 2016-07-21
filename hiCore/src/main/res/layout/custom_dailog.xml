@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/customDialogRoot" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:orientation="horizontal"
+	android:padding="10dp">
+	<ImageView android:layout_height="fill_parent"
+		android:layout_width="wrap_content" android:src="@drawable/dit_logo"
+		android:paddingRight="10dp" android:id="@+id/CustomDialogImage" android:layout_gravity="center" android:padding="10dp"></ImageView>
+	<TextView android:text="TextView" android:id="@+id/CustomDialogText"
+		android:textColor="#FFF" android:gravity="center"
+		android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+
+</LinearLayout>

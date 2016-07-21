@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="match_parent">
+	<TextView android:background="@drawable/cal_ca3" android:id="@+id/THQ110_row02_01"
+		style="@style/THQ110_detail2_data_cell_Sty" android:layout_weight="1"
+		android:text="1">
+	</TextView>
+	<TextView android:background="@drawable/cal_ca0"
+		style="@style/THQ110_detail2_data_cell_Sty" android:layout_weight="3"
+		android:text="YYYY/MM/DD（曜）" android:id="@+id/THQ110_row02_02"></TextView>
+	<TextView android:background="@drawable/cal_ca0"
+		style="@style/THQ110_detail2_data_cell_Sty" android:layout_weight="3"
+		android:text="特別有給休暇" android:id="@+id/THQ110_row02_03"></TextView>
+</TableRow>
+
+

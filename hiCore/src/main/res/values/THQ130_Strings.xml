@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="THQ130_Title">代休管理台帳（個人） (THQ130)</string>
+	<string name="THQ130_Message">現在使用可能な代休を表示しています。過去の台帳を参照するにはメニューより「すべて表示」を押してください。
+	</string>
+	<string name="THQ130_SubMessage">年月を移動するには「前月」「翌月」を押下するか、年月を選択してください。
+		現在の台帳を参照するには端末の「戻るボタン」を押してください。
+	</string>
+	<string name="THQ130_Workday">出勤日：</string>
+	<string name="THQ130_Hours">勤務時間：</string>
+	<string name="THQ130_WorkedHours">実働：</string>
+	<string name="THQ130_ExpirationDate">有効期限：</string>
+	<string name="THQ130_AcquisitionDate">取得日 ：</string>
+
+	<string name="THQ130_PrevDisplay">前月</string>
+	<string name="THQ130_NextDisplay">翌月</string>
+</resources>

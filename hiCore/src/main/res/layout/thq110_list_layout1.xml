@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tableLayout1" android:gravity="center"
+	android:layout_height="match_parent" android:layout_width="match_parent">
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:background="@drawable/cal_ca2" style="@style/THQ110_title1_cell_Sty"
+			android:text="@string/THQ110_TableTitle01"></TextView>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail_data_cell_Sty" android:text="@string/THQ110_TableTitle01_01"></TextView>
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail_data_cell_Sty" android:text="@string/THQ110_TableTitle01_02"></TextView>
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail_data_cell_Sty" android:text="@string/THQ110_TableTitle01_03"></TextView>
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail_data_cell_Sty" android:text="@string/THQ110_TableTitle01_04"></TextView>
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail_data_cell_Sty" android:text="@string/THQ110_TableTitle01_05"></TextView>
+	</TableRow>
+</TableLayout>

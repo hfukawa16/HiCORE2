@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--テキストラベル	-->
+	<string name="TWE110_Title">勤務表入力 (TWE110)</string>
+
+	<string name="TWE110_shukinHH">出勤時刻</string>
+	<string name="TWE110_taikinHH">退勤時刻</string>
+	<string name="TWE110_hoseiHH">補正時間</string>
+	<string name="TWE110_biko">勤務内容・理由</string>
+	
+	<string name="TWE110_Registration_Info_Label">出勤時刻、退勤時刻を入力して仮登録ボタンで押すと仮登録されます
+		\n時刻の入力は時刻部分をタップして入力してください。\n
+	</string>
+	
+			
+	<!--ボタンラベル	-->
+	<string name="TWE110_submit">仮登録</string>
+	<string name="TWE110_cance">キャンセル</string>
+
+	<!--hintメッセージ	-->
+	<string name="TWE110_hint_shukinHH">09:00</string>
+	<string name="TWE110_hint_taikinHH">17:45</string>
+	<string name="TWE110_hint_hoseiHH">00:00</string>
+	<string name="TWE110_hint_biko">ああああああああああああ</string>
+			
+	<!--エラーメッセージ	-->
+	
+	<!--ダイアログメッセージ	-->
+	<string name="TWE110_Msg_PostDailog">仮登録中・・・</string>
+	
+		
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:title="就業管理業務" android:id="@+id/menuLabel1">
+		<menu>
+			<item android:title="勤務表入力" android:id="@+id/menu1_Item1"></item>
+			<item android:title="勤務表日次照会（個人）" android:id="@+id/menu1_Item2"></item>
+			<item android:title="勤務表月次照会（個人）" android:id="@+id/menu1_Item3"></item>
+			<item android:title="勤務表承認状況照会" android:id="@+id/menu1_Item4"></item>
+			<item android:title="プロジェクト承認状況照会" android:id="@+id/menu1_Item5"></item>
+		</menu>
+	</item>
+	<item android:title="申請業務" android:id="@+id/menuLabel2">
+		<menu>
+			<item android:title="申請入力" android:id="@+id/menu2_Item1"></item>
+			<item android:title="申請一覧 " android:id="@+id/menu2_Item2"></item>
+		</menu>
+	</item>
+
+	<item android:title="休暇管理業務" android:id="@+id/menuLabel3">
+		<menu>
+			<item android:title="休暇取得状況一覧（個人）" android:id="@+id/menu3_Item1"></item>
+			<item android:title="代休管理台帳（個人） " android:id="@+id/menu3_Item2"></item>
+		</menu>
+	</item>
+	<item android:title="システム管理業務" android:id="@+id/menuLabel4">
+		<menu>
+			<item android:title="パスワード更新" android:id="@+id/menu4_Item1"></item>
+		</menu>
+	</item>
+	<item android:icon="@drawable/options" android:title="設定"
+		android:id="@+id/menuSeting" />
+</menu>

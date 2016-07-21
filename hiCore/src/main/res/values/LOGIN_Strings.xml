@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--テキスト入力のヒントメッセージ	-->
+   	<string name="LOGIN_UserId_Hint">ユーザＩＤの入力</string>
+	<string name="LOGIN_PassWord_Hint">パスワードの入力</string>
+
+	<!--ボタンラベル	-->
+	<string name="LOGIN_Registration_Btn_Label">ログイン</string>
+
+	<!--テキストラベル	-->
+	<string name="LOGIN_Registration_Layout_Title">ログイン</string>
+	<string name="LOGIN_Registration_Info_Label">就業管理システムにアクセスする為に、ユーザＩＤとパスワードが必要です
+		\n下記にユーザＩＤと、パスワードを入力してログインを行ってください。\n
+	</string>
+
+	<!--スイッチラベル	-->
+	<string name="LOGIN_RegUserID">ユーザＩＤの保存</string>
+	<string name="LOGIN_RegPasswd">パスワードの保存</string>
+	<string name="LOGIN_RegAutologin">次回から自動ログイン</string>
+
+	<!--エラーメッセージ	-->
+	<string name="LOGIN_MsgUserNotInput">ユーザＩＤが入力されていません</string>
+	<string name="LOGIN_MsgPassNotInput">パスワードが入力されていません</string>
+	
+	<!--ダイアログメッセージ	-->
+	<string name="LOGIN_Msg_PostDailog">ログイン処理中・・・</string>
+	
+		
+</resources>

@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="wrap_content">
+
+		<TextView
+		    android:id="@+id/Info_Label"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/TWE110_Registration_Info_Label" />
+	</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:text="@string/TWE110_shukinHH" />
+
+        <EditText
+            android:id="@+id/TWE110_input_shukinHH"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.60"
+            android:ems="10"
+            android:onClick="date_OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:text="@string/TWE110_taikinHH" />
+
+        <EditText
+            android:id="@+id/TWE110_input_taikinHH"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.60"
+            android:ems="10"
+            android:onClick="date_OnClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:text="@string/TWE110_hoseiHH" />
+
+        <EditText
+            android:id="@+id/TWE110_input_hoseiHH"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.60"
+            android:ems="10"
+            android:onClick="date_OnClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:text="@string/TWE110_biko" />
+
+        <EditText
+            android:id="@+id/TWE110_input_biko"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.60"
+            android:ems="10"
+			android:maxLength="24" 
+            android:hint="@string/TWE110_hint_biko" >
+            <requestFocus />
+        </EditText>
+            
+	</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/TWE110_input_btnSubmit"
+            style="android:buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="submit"
+            android:text="@string/TWE110_submit" />
+
+        <Button
+            android:id="@+id/TWE110_input_btnCancel"
+            style="android:buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="cancel"
+            android:text="@string/TWE110_cance" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center" android:layout_height="match_parent"
+	android:layout_width="match_parent">
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:background="@drawable/cal_ca2" style="@style/THQ110_title2_cell_Sty"
+			android:text="@string/THQ110_TableTitle02"></TextView>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail2_data_cell_Sty" android:layout_weight="1"
+			android:text="@string/THQ110_TableTitle02_01"></TextView>
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail2_data_cell_Sty" android:layout_weight="3"
+			android:text="@string/THQ110_TableTitle02_02"></TextView>
+		<TextView android:background="@drawable/cal_ca2"
+			style="@style/THQ110_detail2_data_cell_Sty" android:layout_weight="3"
+			android:text="@string/THQ110_TableTitle02_03"></TextView>
+	</TableRow>
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_height="wrap_content" android:layout_width="match_parent">
+		<LinearLayout android:id="@+id/scrollLinear1"
+			android:layout_width="match_parent" android:orientation="vertical"
+			android:layout_height="wrap_content">
+		</LinearLayout>
+	</ScrollView>
+</TableLayout>

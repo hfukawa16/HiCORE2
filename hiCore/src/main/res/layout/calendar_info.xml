@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/calendar_table" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<TextView android:id="@+id/calendar_date" android:text="@string/cal_info_ca1"
+			android:layout_weight="1" android:background="@drawable/cal_ca1"
+			style="@style/cal_info_cell_Sty"/>
+		<TextView android:id="@+id/calendar_date" android:text="@string/cal_info_ca2"
+			android:layout_weight="1" android:background="@drawable/cal_ca2"
+			style="@style/cal_info_cell_Sty" />
+		<TextView android:id="@+id/calendar_date" android:text="@string/cal_info_ca3"
+			android:layout_weight="1" android:background="@drawable/cal_ca3"
+			style="@style/cal_info_cell_Sty" />
+		<TextView android:id="@+id/calendar_date" android:text="@string/cal_info_ca6"
+			android:layout_weight="1" android:background="@drawable/cal_ca6"
+			style="@style/cal_info_cell_Sty" />
+		<TextView android:id="@+id/calendar_date" android:text="@string/cal_info_ca4"
+			android:layout_weight="1" android:background="@drawable/cal_ca4"
+			style="@style/cal_info_cell_Sty" />
+		<TextView android:id="@+id/calendar_date" android:text="@string/cal_info_ca5"
+			android:layout_weight="1" android:background="@drawable/cal_ca5"
+			style="@style/cal_info_cell_Sty" />
+	</TableRow>
+</TableLayout>
+

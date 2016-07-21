@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<string name="TAE120_Title">申請一覧 (TAE120)</string>
+		<string name="TAE120_Message">申請の一覧表示しています。更新するには日付をクリックしてください。</string>
+		<string name="TAE120_ApplicationDate">申請日</string>
+		<string name="TAE120_ApprovalStatus">承認状況</string>
+		<string name="TAE120_Prior">事前</string>
+		<string name="TAE120_TheApplicationForm">申請内容</string>
+		<string name="TAE120_TheApplicationPeriod">申請期間</string>
+		<string name="TAE120_ApplicationTime">申請時刻</string>
+		<string name="TAE120_Why">理　由</string>
+		<string name="TAE120_Project">プロジェクト</string>
+		<string name="TAE120_PrevDisplay">前月</string>
+		<string name="TAE120_NextDisplay">翌月</string>
+</resources>

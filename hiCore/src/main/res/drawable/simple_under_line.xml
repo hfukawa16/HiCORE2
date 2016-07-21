@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- タップされたときの設定 -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- 枠線付き長方形 -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFC0CB"/>
+                    <stroke android:width="2dp" android:color="#AAAAAA" />
+                </shape>
+            </item>
+ 
+            <!-- 2dp分の padding を設定した枠線なし長方形 -->
+            <item android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFC0CB"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+ 
+    <!-- 通常時の設定 -->
+    <item android:state_pressed="false">
+        <layer-list>
+            <!-- 枠線付き長方形 -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFFFFF"/>
+                    <stroke android:width="2dp" android:color="#AAAAAA" />
+                </shape>
+            </item>
+ 
+            <!-- 2dp分の padding を設定した枠線なし長方形 -->
+            <item android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFFFFF"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+ 
+</selector>

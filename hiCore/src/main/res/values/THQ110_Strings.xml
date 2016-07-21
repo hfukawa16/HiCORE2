@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="THQ110_Title">休暇取得状況一覧（個人） (THQ110)</string>
+	<string name="THQ110_Message">年月を移動するには場合は「前月」「翌月」を押下するか、年月を選択してください。
+	</string>
+
+	<string name="THQ110_TableTitle01">休暇台帳</string>
+	<string name="THQ110_TableTitle01_01">休暇区分</string>
+	<string name="THQ110_TableTitle01_02">付与</string>
+	<string name="THQ110_TableTitle01_03">前月残日数</string>
+	<string name="THQ110_TableTitle01_04">使用</string>
+	<string name="THQ110_TableTitle01_05">残日数</string>
+
+	<string name="THQ110_RowLable01">年次有給休暇</string>
+	<string name="THQ110_RowLable02">代替休暇</string>
+
+
+	<string name="THQ110_TableTitle02">休暇取得一覧</string>
+	<string name="THQ110_TableTitle02_01">NO</string>
+	<string name="THQ110_TableTitle02_02">取得日付</string>
+	<string name="THQ110_TableTitle02_03">休暇区分</string>
+
+
+	<string name="THQ110_PrevDisplay">前月</string>
+	<string name="THQ110_NextDisplay">翌月</string>
+</resources>

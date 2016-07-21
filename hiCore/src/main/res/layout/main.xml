@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/messageText" android:textColor="#ff0000"
+		android:layout_width="fill_parent" android:background="@drawable/dit_lable_b"
+		android:layout_height="wrap_content" android:padding="4dp"></TextView>
+
+	<jp.co.dit.android.apps.HiCore.Calendar.lib.HiCoreCalendar
+		android:layout_height="fill_parent" android:id="@+id/caln"
+		android:layout_width="fill_parent"></jp.co.dit.android.apps.HiCore.Calendar.lib.HiCoreCalendar>
+
+
+
+</LinearLayout>
+

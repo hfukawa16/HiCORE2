@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="cal_title_YYYYMM">2011/01</string>
+	<string name="cal_title_Prev">＜＜</string>
+	<string name="cal_title_Next">＞＞</string>
+	<string name="cal_header_sun">日</string>
+	<string name="cal_header_mon">月</string>
+	<string name="cal_header_tue">火</string>
+	<string name="cal_header_wed">水</string>
+	<string name="cal_header_thu">木</string>
+	<string name="cal_header_fri">金</string>
+	<string name="cal_header_sat">土</string>
+
+	<string name="cal_info_ca0">　</string>
+	<string name="cal_info_ca1">未入力</string>
+	<string name="cal_info_ca2">仮登録</string>
+	<string name="cal_info_ca3">承認待</string>
+	<string name="cal_info_ca6">総承認待</string>
+	<string name="cal_info_ca4">総務確定</string>
+	<string name="cal_info_ca5">差戻し</string>
+</resources>

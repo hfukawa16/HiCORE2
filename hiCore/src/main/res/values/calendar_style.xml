@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- カレンダータイトル部のスタイル -->
+	<style name="cal_title_cell_Sty">
+		<item name="android:gravity">center</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+
+	<!-- カレンダーヘッダー部の平日スタイル -->
+	<style name="cal_header_cell_WeekdaySty">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+
+	<!-- カレンダーヘッダー部の土曜日スタイル -->
+	<style name="cal_header_cell_SaturdaySty">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#0000FF</item>
+	</style>
+
+	<!-- カレンダーヘッダー部の休日スタイル -->
+	<style name="cal_header_cell_HolidaySty">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#FF0000</item>
+	</style>
+
+	<!-- カレンダーディテール部の日スタイル -->
+	<style name="cal_detail_cell_Sty">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+
+	<!-- カレンダー説明部の日スタイル -->
+	<style name="cal_info_cell_Sty">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+</resources>

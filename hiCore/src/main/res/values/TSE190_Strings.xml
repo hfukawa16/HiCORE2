@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="TSE190_Title">パスワード更新 (TSE190)</string>
+	<string name="TSE190_Message">「現パスワード」「新パスワード」を入力し、「登録」ボタンを押してください。</string>
+	<string name="TSE190_OldPasswordHint">現パスワード入力</string>
+	<string name="TSE190_NewPassWordHint1">新パスワード入力</string>
+	<string name="TSE190_NewPassWordHint2">新パスワード入力（確認）</string>
+	<string name="TSE190_OK">登 録</string>
+</resources>
